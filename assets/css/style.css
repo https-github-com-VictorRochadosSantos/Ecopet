@@ -1,22 +1,63 @@
-.navbar{
-    background-image:url(../images/cachorro-oculos.jpg);
+body{
+    background-color: #3CC2E8;
+    padding: 0px !important;
+}
+nav{
+    box-shadow: black 0 0 5px;
+    opacity: 1;
+}
+.navbar {
+    background-color: #E8BC0F;
 }
 
 .imagem-custom {
-background-color: #E8BC0F;
-background-repeat: no-repeat;
+    background-color: #E8BC0F;
+    background-repeat: no-repeat;
 }
 
-.footer-yallow{
- background-color: #E8BC0F;
+.footer-yallow {
+    background-color: #E8BC0F;
 }
 
-.nav-link{
-    color: #fff;
+.nav-link {
+    color: black;
     text-transform: uppercase;
 }
-#carousel13{
-    justify-content: center;
-    display: flex;
 
+.carousel-inner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.carousel-caption h5 {
+    font-size: 50px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+    font-size: 25px;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.section-produto h2{
+    margin-top: 5vh;
+}
+
+.list-custom {
+    width: 80vh;
+    float: right;
+}
+
+/* -----------CONTATO------------------- */
+.contact-card {
+    width: 40%;
+    margin-left:55vh ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #E8BC0F;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 14px 6px black;
+}
+
